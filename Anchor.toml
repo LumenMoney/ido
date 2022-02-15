@@ -1,0 +1,12 @@
+[programs.localnet]
+lumen = "123nCJRmafYDvdYBhisUcFHfoqanF6hxt1tHFNZyRD8"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/umairbussi/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
